@@ -1,0 +1,1 @@
+INSERT INTO `lingala` (`english`, `lingala`) VALUES('Earrings', 'Biloko ya matoyi');

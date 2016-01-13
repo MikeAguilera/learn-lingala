@@ -1,0 +1,368 @@
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+body {
+    margin-top: 100px;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 225px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+}
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #666;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #fff;
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    border: 1px solid rgba(0,0,0,.15);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+ul.message-dropdown {
+    padding: 0;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+li.message-preview {
+    width: 275px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+li.message-preview>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li.message-footer {
+    margin: 5px 0;
+}
+
+ul.alert-dropdown {
+    width: 200px;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 51px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #fff;
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #D6D8DD !important;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #666;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+/********************************************/
+            /*Search Page Layout*/
+/********************************************/
+
+.section.page h1 {
+font-size: 24px;
+text-align: center;
+text-transform: uppercase;
+line-height: 1.6;
+font-weight: normal;
+}
+form {
+    width: 100%; 
+    margin: 34px auto;
+
+}
+form tr {
+    border: 1px solid #CCC;
+    background: #f4f3f2;
+}
+form table {
+    width: 100%; 
+    margin-bottom: 16px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+form th {
+    width: 85px;
+    border-right: 1px solid #CCC;
+    vertical-align: middle;
+    padding: 8px;
+    padding-left: 16.75%;
+}
+form td {
+    padding: 15px 15px;
+}
+form td select,
+form td input,
+form td textarea {
+    width: 100%;
+}
+form input[type="submit"] {
+    width: 50%%;
+    /* margin-left: 25%; */
+    text-align: center;
+    border: 1px solid #4cae4c;
+    background: #5cb85c;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+}
+.search form {
+    width: auto;
+    text-align: center;
+}
+.search form input[type="text"] {
+    font-size: 24px;
+    width: 70%;
+    line-height: 1.5;
+    vertical-align: top;
+    padding: 3px;
+}
+.search form input[type="submit"] {
+    width: auto;
+    vertical-align: top;    
+}
+.section.page.search p {text-align: center;}
+
+.section.shirts ul.products {margin: 0; padding: 0; width: 100%;}
+.section.shirts ul.products li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid #e3e1e0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    /*text-transform: capitalize;*/
+    padding: 5px;
+    background: #f0eeed;
+    margin: 0 0 5px 5px;
+    position: relative;
+}
+.section.shirts ul.products li a:hover:after {
+    content: '+';
+    font-size: 50px; position: absolute; top: -10px; right: 25px; color: #f16702; vertical-align: top;    
+}
+.section.shirts ul.products li a {
+    background: white;
+    display: inline-block;
+    padding: 30px 0 10px;
+    text-decoration: none;
+    color: #999;
+    opacity: .9;
+}
+.section.shirts ul.products li a:hover {
+    opacity: 1;
+    color: #666;
+}
+.section.shirts ul.products li p {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+}
+
+
+/********************************************/
+            /*Media Queries*/
+/********************************************/
+
+@media screen and (max-width: 768px){
+    .container-fluid {
+        margin-top: -45px !important;
+    }
+
+   .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 420px;
+    }
+    .section.shirts ul.products {
+    width: 95%;
+    }
+    .section.shirts ul.products li {
+    left: 0px; 
+    }
+};
+
+@media screen and (max-width: 769px) and (max-width: 1300px){
+    .section.shirts ul.products {
+    width: 95%;
+    }
+    .section.shirts ul.products li {
+    left: 0px; 
+    }
+};
+
+
+
+
+
+
